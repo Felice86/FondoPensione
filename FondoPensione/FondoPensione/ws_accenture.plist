@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>lettura_recapiti</key>
+	<dict>
+		<key>method</key>
+		<string>GET</string>
+		<key>url</key>
+		<string>https://www.fondimatica.it/%@svc/Aderente2.svc/%@/recapiti</string>
+		<key>Content-Type</key>
+		<string></string>
+	</dict>
+	<key>modifica_recapiti</key>
+	<dict>
+		<key>method</key>
+		<string>POST</string>
+		<key>url</key>
+		<string>https://www.fondimatica.it/%@svc/Aderente2.svc/%@/recapiti</string>
+		<key>Content-Type</key>
+		<string></string>
+	</dict>
+	<key>rendimento</key>
+	<dict>
+		<key>method</key>
+		<string>GET</string>
+		<key>url</key>
+		<string>https://www.fondimatica.it/%@svc/Aderente2.svc/%@/rendimento</string>
+		<key>Content-Type</key>
+		<string></string>
+	</dict>
+    <key>contributi</key>
+    <dict>
+        <key>method</key>
+        <string>GET</string>
+        <key>url</key>
+        <string>https://www.fondimatica.it/%@svc/Aderente2.svc/%@/contributi</string>
+        <key>Content-Type</key>
+        <string></string>
+    </dict>
+	<key>abilitautente</key>
+	<dict>
+		<key>method</key>
+		<string>POST</string>
+		<key>url</key>
+		<string>https://www.fondimatica.it/%@svc/Aderente2.svc/%@/abilitautente</string>
+		<key>Content-Type</key>
+		<string>application-json</string>
+	</dict>
+	<key>anagrafica</key>
+	<dict>
+		<key>method</key>
+		<string>GET</string>
+		<key>url</key>
+		<string>https://www.fondimatica.it/%@svc/Aderente2.svc/%@/anagrafica</string>
+		<key>Content-Type</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>

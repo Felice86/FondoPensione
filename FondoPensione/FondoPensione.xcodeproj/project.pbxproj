@@ -12,6 +12,15 @@
 		6DCFBC0A1C05AA0D008B1EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DCFBC081C05AA0D008B1EC0 /* Main.storyboard */; };
 		6DCFBC0C1C05AA0D008B1EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DCFBC0B1C05AA0D008B1EC0 /* Assets.xcassets */; };
 		6DCFBC0F1C05AA0D008B1EC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DCFBC0D1C05AA0D008B1EC0 /* LaunchScreen.storyboard */; };
+		6DCFBC211C05AAA1008B1EC0 /* AnagraficaUtenzaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCFBC181C05AAA1008B1EC0 /* AnagraficaUtenzaInfo.m */; settings = {ASSET_TAGS = (); }; };
+		6DCFBC221C05AAA1008B1EC0 /* ContributoInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCFBC1A1C05AAA1008B1EC0 /* ContributoInfo.m */; settings = {ASSET_TAGS = (); }; };
+		6DCFBC231C05AAA1008B1EC0 /* RecapitiInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCFBC1C1C05AAA1008B1EC0 /* RecapitiInfo.m */; settings = {ASSET_TAGS = (); }; };
+		6DCFBC241C05AAA1008B1EC0 /* RendimentoDettaglio.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCFBC1E1C05AAA1008B1EC0 /* RendimentoDettaglio.m */; settings = {ASSET_TAGS = (); }; };
+		6DCFBC251C05AAA1008B1EC0 /* RendimentoInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCFBC201C05AAA1008B1EC0 /* RendimentoInfo.m */; settings = {ASSET_TAGS = (); }; };
+		6DCFBC281C05AAB4008B1EC0 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCFBC271C05AAB4008B1EC0 /* NSString+MD5.m */; settings = {ASSET_TAGS = (); }; };
+		6DCFBC2D1C05AACB008B1EC0 /* WebServiceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCFBC2B1C05AACB008B1EC0 /* WebServiceInfo.m */; settings = {ASSET_TAGS = (); }; };
+		6DCFBC2E1C05AACB008B1EC0 /* ws_accenture.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DCFBC2C1C05AACB008B1EC0 /* ws_accenture.plist */; settings = {ASSET_TAGS = (); }; };
+		6DCFBC321C05AB33008B1EC0 /* UserLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCFBC311C05AB33008B1EC0 /* UserLogin.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +32,26 @@
 		6DCFBC0B1C05AA0D008B1EC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DCFBC0E1C05AA0D008B1EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DCFBC101C05AA0D008B1EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DCFBC171C05AAA1008B1EC0 /* AnagraficaUtenzaInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnagraficaUtenzaInfo.h; sourceTree = "<group>"; };
+		6DCFBC181C05AAA1008B1EC0 /* AnagraficaUtenzaInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnagraficaUtenzaInfo.m; sourceTree = "<group>"; };
+		6DCFBC191C05AAA1008B1EC0 /* ContributoInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContributoInfo.h; sourceTree = "<group>"; };
+		6DCFBC1A1C05AAA1008B1EC0 /* ContributoInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContributoInfo.m; sourceTree = "<group>"; };
+		6DCFBC1B1C05AAA1008B1EC0 /* RecapitiInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecapitiInfo.h; sourceTree = "<group>"; };
+		6DCFBC1C1C05AAA1008B1EC0 /* RecapitiInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecapitiInfo.m; sourceTree = "<group>"; };
+		6DCFBC1D1C05AAA1008B1EC0 /* RendimentoDettaglio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RendimentoDettaglio.h; sourceTree = "<group>"; };
+		6DCFBC1E1C05AAA1008B1EC0 /* RendimentoDettaglio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RendimentoDettaglio.m; sourceTree = "<group>"; };
+		6DCFBC1F1C05AAA1008B1EC0 /* RendimentoInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RendimentoInfo.h; sourceTree = "<group>"; };
+		6DCFBC201C05AAA1008B1EC0 /* RendimentoInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RendimentoInfo.m; sourceTree = "<group>"; };
+		6DCFBC261C05AAB4008B1EC0 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		6DCFBC271C05AAB4008B1EC0 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		6DCFBC2A1C05AACB008B1EC0 /* WebServiceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceInfo.h; sourceTree = "<group>"; };
+		6DCFBC2B1C05AACB008B1EC0 /* WebServiceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceInfo.m; sourceTree = "<group>"; };
+		6DCFBC2C1C05AACB008B1EC0 /* ws_accenture.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ws_accenture.plist; sourceTree = "<group>"; };
+		6DCFBC2F1C05AAF6008B1EC0 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6DCFBC301C05AB33008B1EC0 /* UserLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLogin.h; sourceTree = "<group>"; };
+		6DCFBC311C05AB33008B1EC0 /* UserLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLogin.m; sourceTree = "<group>"; };
+		6DCFBC331C05AB9D008B1EC0 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
+		6DCFBC341C05AB9D008B1EC0 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +84,8 @@
 		6DCFBBFE1C05AA0D008B1EC0 /* FondoPensione */ = {
 			isa = PBXGroup;
 			children = (
+				6DCFBC291C05AAC1008B1EC0 /* Shared */,
+				6DCFBC161C05AA8E008B1EC0 /* Model */,
 				6DCFBC021C05AA0D008B1EC0 /* AppDelegate.h */,
 				6DCFBC031C05AA0D008B1EC0 /* AppDelegate.m */,
 				6DCFBC081C05AA0D008B1EC0 /* Main.storyboard */,
@@ -69,9 +100,41 @@
 		6DCFBBFF1C05AA0D008B1EC0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6DCFBC261C05AAB4008B1EC0 /* NSString+MD5.h */,
+				6DCFBC271C05AAB4008B1EC0 /* NSString+MD5.m */,
 				6DCFBC001C05AA0D008B1EC0 /* main.m */,
+				6DCFBC2F1C05AAF6008B1EC0 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DCFBC161C05AA8E008B1EC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DCFBC301C05AB33008B1EC0 /* UserLogin.h */,
+				6DCFBC311C05AB33008B1EC0 /* UserLogin.m */,
+				6DCFBC171C05AAA1008B1EC0 /* AnagraficaUtenzaInfo.h */,
+				6DCFBC181C05AAA1008B1EC0 /* AnagraficaUtenzaInfo.m */,
+				6DCFBC191C05AAA1008B1EC0 /* ContributoInfo.h */,
+				6DCFBC1A1C05AAA1008B1EC0 /* ContributoInfo.m */,
+				6DCFBC1B1C05AAA1008B1EC0 /* RecapitiInfo.h */,
+				6DCFBC1C1C05AAA1008B1EC0 /* RecapitiInfo.m */,
+				6DCFBC1D1C05AAA1008B1EC0 /* RendimentoDettaglio.h */,
+				6DCFBC1E1C05AAA1008B1EC0 /* RendimentoDettaglio.m */,
+				6DCFBC1F1C05AAA1008B1EC0 /* RendimentoInfo.h */,
+				6DCFBC201C05AAA1008B1EC0 /* RendimentoInfo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6DCFBC291C05AAC1008B1EC0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6DCFBC2A1C05AACB008B1EC0 /* WebServiceInfo.h */,
+				6DCFBC2B1C05AACB008B1EC0 /* WebServiceInfo.m */,
+				6DCFBC2C1C05AACB008B1EC0 /* ws_accenture.plist */,
+			);
+			name = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +168,7 @@
 				TargetAttributes = {
 					6DCFBBFB1C05AA0D008B1EC0 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 2F8VYP58PJ;
 					};
 				};
 			};
@@ -113,7 +177,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = 6DCFBBF31C05AA0D008B1EC0;
@@ -134,6 +197,7 @@
 				6DCFBC0F1C05AA0D008B1EC0 /* LaunchScreen.storyboard in Resources */,
 				6DCFBC0C1C05AA0D008B1EC0 /* Assets.xcassets in Resources */,
 				6DCFBC0A1C05AA0D008B1EC0 /* Main.storyboard in Resources */,
+				6DCFBC2E1C05AACB008B1EC0 /* ws_accenture.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +208,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DCFBC241C05AAA1008B1EC0 /* RendimentoDettaglio.m in Sources */,
+				6DCFBC231C05AAA1008B1EC0 /* RecapitiInfo.m in Sources */,
+				6DCFBC321C05AB33008B1EC0 /* UserLogin.m in Sources */,
+				6DCFBC281C05AAB4008B1EC0 /* NSString+MD5.m in Sources */,
+				6DCFBC2D1C05AACB008B1EC0 /* WebServiceInfo.m in Sources */,
+				6DCFBC251C05AAA1008B1EC0 /* RendimentoInfo.m in Sources */,
+				6DCFBC221C05AAA1008B1EC0 /* ContributoInfo.m in Sources */,
+				6DCFBC211C05AAA1008B1EC0 /* AnagraficaUtenzaInfo.m in Sources */,
 				6DCFBC041C05AA0D008B1EC0 /* AppDelegate.m in Sources */,
 				6DCFBC011C05AA0D008B1EC0 /* main.m in Sources */,
 			);
@@ -156,6 +228,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6DCFBC091C05AA0D008B1EC0 /* Base */,
+				6DCFBC331C05AB9D008B1EC0 /* it */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -164,6 +237,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6DCFBC0E1C05AA0D008B1EC0 /* Base */,
+				6DCFBC341C05AB9D008B1EC0 /* it */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -207,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -245,7 +319,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -257,7 +331,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FondoPensione/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elpoedizioni.FondoPensione;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -268,7 +344,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FondoPensione/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elpoedizioni.FondoPensione;
 				PRODUCT_NAME = "$(TARGET_NAME)";
